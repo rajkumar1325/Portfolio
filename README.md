@@ -11,7 +11,11 @@
 🔗 **Live:** [portfolio-one-flame-59.vercel.app](https://portfolio-one-flame-59.vercel.app)
 
 ---
+<img width="1792" height="1120" alt="1" src="https://github.com/user-attachments/assets/7642f18d-ae0d-4ba9-a736-7dd6ffc690ed" />
 
+
+
+---
 ## ✨ Features
 
 - **Custom Cursor** — gold dot + trailing ring with mix-blend-mode difference effect
