@@ -1035,10 +1035,10 @@
       </p>
 
 
-      <div class="space-y-6">
+      <div class="grid md:grid-cols-2 gap-6">
 
         <!-- CURIEM -->
-        <div class="pc fd mt-2 mb-2" style="border-color:rgba(212,168,83,.22)">
+        <div class="pc fd md:col-span-2" style="border-color:rgba(212,168,83,.22)">
           <div
             style="position:absolute;top:18px;right:18px;font-family:'DM Mono',monospace;font-size:.49rem;letter-spacing:.15em;background:rgba(212,168,83,.1);border:1px solid rgba(212,168,83,.27);color:var(--go);padding:3px 10px;border-radius:2px">
             ★ FINAL YEAR · PUBLISHED RESEARCH</div>
@@ -1170,10 +1170,113 @@
           </div>
         </div>
 
-      </div>
+        <!-- SONY WH-1000XM6 SCROLLYTELLING -->
+        <div class="pc fd flex flex-col" style="border-color:rgba(212,168,83,.22)">
+          <div
+            style="position:absolute;top:18px;right:18px;font-family:'DM Mono',monospace;font-size:.49rem;letter-spacing:.15em;background:rgba(212,168,83,.1);border:1px solid rgba(212,168,83,.3);color:var(--go);padding:3px 10px;border-radius:2px">
+            ★ LIVE · SCROLL-DRIVEN CANVAS ENGINE</div>
+          <div class="flex items-start gap-5 mb-5">
+            <div
+              style="width:46px;height:46px;border-radius:10px;background:rgba(212,168,83,.07);border:1px solid rgba(212,168,83,.18);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.3rem">
+              🎧</div>
+            <div>
+              <h3 class="dp text-2xl font-bold" style="color:var(--wa)">Sony WH-1000XM6 Scrollytelling</h3>
+              <div class="mn" style="font-size:.61rem;color:var(--ac);margin-top:3px">Apple-Inspired Product
+                Showcase — React + Canvas</div>
+              <div class="mn" style="font-size:.58rem;color:var(--go);opacity:.8;margin-top:2px">Live on Vercel ·
+                192-Frame Image Sequence</div>
+            </div>
+          </div>
+          <p style="font-size:.82rem;color:var(--mu);line-height:1.85">
+            A premium product page where scroll position drives the entire animation — no video, just a 192-frame
+            image sequence scrubbed onto an HTML5 canvas as you scroll, inspired by Apple, Sony, and Tesla launch
+            pages.
+          </p>
 
-      <!-- FEATURED APPS -->
-      <div class="grid md:grid-cols-2 gap-6 mt-6 mb-6">
+          <p style="font-size:.82rem;color:var(--cu);line-height:1.85;margin-bottom:18px">
+            <span style="color:var(--go);flex-shrink:0">></span>
+            requestAnimationFrame + linear interpolation (lerp 0.09) smooth out the frame transitions so the product
+            rotation feels cinematic instead of jittery.
+          </p>
+
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
+            <div
+              style="background:rgba(212,168,83,.05);border:1px solid rgba(212,168,83,.12);border-radius:6px;padding:10px;text-align:center">
+              <div class="mn" style="color:var(--go);font-weight:500">192</div>
+              <div class="mn" style="font-size:.56rem;color:var(--mu);margin-top:3px">JPG frames</div>
+            </div>
+            <div
+              style="background:rgba(212,168,83,.05);border:1px solid rgba(212,168,83,.12);border-radius:6px;padding:10px;text-align:center">
+              <div class="mn" style="color:var(--go);font-weight:500">LERP</div>
+              <div class="mn" style="font-size:.56rem;color:var(--mu);margin-top:3px">0.09 damping</div>
+            </div>
+            <div
+              style="background:rgba(212,168,83,.05);border:1px solid rgba(212,168,83,.12);border-radius:6px;padding:10px;text-align:center">
+              <div class="mn" style="color:var(--go);font-weight:500">Canvas</div>
+              <div class="mn" style="font-size:.56rem;color:var(--mu);margin-top:3px">High-DPI render</div>
+            </div>
+            <div
+              style="background:rgba(212,168,83,.05);border:1px solid rgba(212,168,83,.12);border-radius:6px;padding:10px;text-align:center">
+              <div class="mn" style="color:var(--go);font-weight:500">Sticky</div>
+              <div class="mn" style="font-size:.56rem;color:var(--mu);margin-top:3px">Scroll-linked UI</div>
+            </div>
+          </div>
+
+          <ul class="space-y-1.5 mb-5">
+            <li style="font-size:.81rem;color:var(--mu);display:flex;gap:8px;align-items:flex-start"><span
+                style="color:var(--go);flex-shrink:0">▹</span>All 192 frames preloaded up front with a live progress
+              loader before the page reveals</li>
+            <li style="font-size:.81rem;color:var(--mu);display:flex;gap:8px;align-items:flex-start"><span
+                style="color:var(--go);flex-shrink:0">▹</span>Sticky canvas + floating story sections that fade and
+              slide in/out based on scroll percentage</li>
+            <li style="font-size:.81rem;color:var(--mu);display:flex;gap:8px;align-items:flex-start"><span
+                style="color:var(--go);flex-shrink:0">▹</span>Glassmorphic specs dashboard with <span class="mn"
+                style="font-size:.7rem;background:rgba(212,168,83,.08);padding:1px 5px;border-radius:3px;color:var(--go)">Framer
+                Motion</span> tab transitions</li>
+          </ul>
+
+          <div class="flex flex-wrap gap-2 mb-5">
+            <span class="tg"
+              style="background:rgba(212,168,83,.07);border:1px solid rgba(212,168,83,.18);color:var(--go)">React
+              19</span>
+            <span class="tg"
+              style="background:rgba(212,168,83,.07);border:1px solid rgba(212,168,83,.18);color:var(--go)">Vite</span>
+            <span class="tg"
+              style="background:rgba(212,168,83,.07);border:1px solid rgba(212,168,83,.18);color:var(--go)">Framer
+              Motion</span>
+            <span class="tg"
+              style="background:rgba(212,168,83,.07);border:1px solid rgba(212,168,83,.18);color:var(--go)">Canvas
+              API</span>
+            <span class="tg"
+              style="background:rgba(212,168,83,.07);border:1px solid rgba(212,168,83,.18);color:var(--go)">Lucide
+              React</span>
+          </div>
+
+          <div class="flex items-center justify-end gap-3 mt-auto pt-2">
+            <a class="tg"
+              style="background:rgba(212,168,83,.06);border:1px solid rgba(212,168,83,.18);color:var(--go)"
+              href="https://www.linkedin.com/posts/rajkumar0104_react-javascript-frontend-ugcPost-7484326197389090816-NV1_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEE44k0BkyoXYifLbEiIAjaz-wd4hKGHmgE"
+              target="_blank">
+              ↗ View
+            </a>
+            <a href="https://github.com/rajkumar1325/Projects/tree/main/React_Projects/SonyHeadphoneScrollytelling"
+              target="_blank" class="br" style="font-size:.62rem;padding:7px 14px">
+              <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor">
+                <path
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+              </svg>GitHub
+            </a>
+            <a href="https://sonywh1000.vercel.app" target="_blank" class="br"
+              style="font-size:.62rem;padding:7px 14px;background:rgba(212,168,83,.08);border-color:var(--go);color:var(--go)">
+              <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                <polyline points="15,3 21,3 21,9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+              Live Site
+            </a>
+          </div>
+        </div>
 
         <!-- RESCUE ZERO -->
         <div class="pc fd flex flex-col" style="border-color:rgba(224,112,112,.22)">
@@ -1370,10 +1473,6 @@
           </div>
         </div>
 
-      </div>
-
-      <!-- SMALLER PROJECTS -->
-      <div class="grid md:grid-cols-2 gap-6 mt-2 mb-2">
         <!-- BMI App -->
         <div class="pc fd flex flex-col">
           <div class="flex items-start justify-between mb-4">
@@ -1421,7 +1520,7 @@
         </div>
 
         <!-- SPAM SMS -->
-        <div class="pc fd flex flex-col">
+        <div class="pc fd flex flex-col md:col-span-2">
           <div class="flex items-start justify-between mb-4">
             <div class="flex items-center gap-4">
               <span style="font-size:1.6rem">🧠</span>
